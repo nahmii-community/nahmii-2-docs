@@ -13,14 +13,14 @@ The current testnet iteration of nahmii 2.0 works with both a private instance o
 L1 testnet
 Network name: nahmii 2.0 L1 testnet
 RPC URL: https://l1.testnet.nahmii.io/
-ChainID: 1
+ChainID: 31337
 Symbol: ETH
 Block explorer URL:
 
 L2 testnet
 Network name: nahmii 2.0 L2 testnet
 RPC URL: https://l2.testnet.nahmii.io/
-ChainID: 550
+ChainID: 555
 Symbol: ETH
 Block explorer URL:
 
