@@ -37,3 +37,7 @@ Block explorer URL:
 nahmii 2.0 provides a number of contracts on L1 to interact with the L2 and vica versa. The meta data of these contracts can be found [here](https://meta.testnet.nahmii.io/addresses.json).
 
 The main contract for developers is the AddressManager. The AddressManager provides easy accesss to all the other contracts and exposes their addresses. 
+
+## nahmii 2.0 for developers
+
+For examples on how to interact with nahmii 2.0, please see the provided examples.
