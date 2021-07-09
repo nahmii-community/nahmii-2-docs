@@ -4,7 +4,7 @@
 
 nahmii 2.0 is a layer 2 for Ethereum built around the nahmii Virtual Machine, nVM. This upgraded version of nahmii provides generalised smart contract support and full composability between them. nahmii leverages patent-pending state pool technology which gives unprecedented scalability. This makes nahmii the only commercially viable scaling solution for Ethereum.
 
-## Connecting to nahmii 2.0
+## Connecting to the nahmii 2.0 testnet
 
 The current testnet iteration of nahmii 2.0 works with both a private instance of Ethereum and a L2 network. It is thus required to connect to two RPC networks.
 
