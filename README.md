@@ -32,8 +32,8 @@ Block explorer URL:
 4. A new window will popup where you can fill in the connection details. Fill in the details provided above for the first network and click save.
 5. Do this again for the second network listed above.
 
-## Nahmii 2.0 Meta contracts L1 <-> L2
+## nahmii 2.0 Meta contracts L1 <-> L2
 
-Nahmii 2.0 provides a number of contracts on L1 to interact with the L2 and vica versa. The meta data of these contracts can be found [here](https://meta.testnet.nahmii.io/addresses.json).
+nahmii 2.0 provides a number of contracts on L1 to interact with the L2 and vica versa. The meta data of these contracts can be found [here](https://meta.testnet.nahmii.io/addresses.json).
 
 The main contract for developers is the AddressManager. The AddressManager provides easy accesss to all the other contracts and exposes their addresses. 
