@@ -26,7 +26,7 @@ Block explorer URL:
 
 ### Connect manually via MetaMask
 
-1. Open the MetaMask brwoser extension.
+1. Open the MetaMask browser extension.
 2. Click on the network name.
 3. When the networks window pops up, click on 'Custom RPC'.
 4. A new window will popup where you can fill in the connection details. Fill in the details provided above for the first network and click save.
