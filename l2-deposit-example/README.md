@@ -1,6 +1,6 @@
 # nahmii 2.0 L2 deposit example
 
-The scripts in this example folder show how developers can interact with the nahmii 2.0 L1 and L2. It shows to get access to the AddressManager, retrieve addresses from some of our L1 deployed contracts and how to deposit Ethereum from L1 into L2.
+The scripts in this example folder show how developers can interact with the nahmii 2.0 L1 and L2. It shows how to get access to the AddressManager, retrieve addresses from some of our L1 deployed contracts and how to deposit Ethereum from L1 into L2.
 
 ## How to run the project
 
@@ -10,4 +10,4 @@ The scripts in this example folder show how developers can interact with the nah
 
 ## Configuration
 
-These demo tests by default are connecting the live service instances of nahmii 2.0. To run these tests against local instance, please refer to the environment variables defined in the `./native-eth/utils.js` file.
+These demo tests by default are connecting the live service instances of nahmii 2.0. To run these tests against a local instance, please refer to the environment variables defined in the `./native-eth/utils.js` file.
