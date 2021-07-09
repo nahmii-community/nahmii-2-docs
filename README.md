@@ -36,8 +36,54 @@ Block explorer URL:
 
 Nahmii 2.0 provides a number of contracts on L1 to interact with the L2 and vica versa. The meta data of these contracts can be found [here](https://meta.testnet.nahmii.io/addresses.json).
 
-The main contract for developers is the AddressManager. The AddressManager provides easy accesss to all the other contracts and exposes their addresses. 
+The main contract that is relevant for developers is the AddressManager. The AddressManager provides easy accesss to all the other contracts and exposes their addresses. For examples on how to interact with the Nahmii 2.0 L2 contracts, please see the provided examples.
 
-## Nahmii 2.0 for developers
+## Configuring a project to run on Nahmii 2.0
 
-For examples on how to interact with Nahmii 2.0, please see the provided examples.
+To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-ovm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
+
+1. Install the OVM hardhat plugin.
+
+```js
+yarn add @eth-optimism/hardhat-ovm
+```
+
+2. Edit `hardhat.config.js` to use the OVM package.
+
+```js
+// hardhat.config.js
+require("@nomiclabs/hardhat-waffle");
+require('@eth-optimism/hardhat-ovm')
+
+...
+```
+
+3. In the same file, add `nahmii` to the list of networks:
+
+```js
+...
+
+module.exports = {
+  solidity: "0.7.6",
+  networks: {
+    nahmii: {
+      url: 'https://l2.testnet.nahmii.io/',
+      accounts: { mnemonic: 'test test test test test test test test test test test junk' },
+      gasPrice: 15000000,
+      ovm: true
+    }
+  }
+};
+```
+
+4. To test contracts on the live Nahmii L2, compile it with hardhat:
+
+```
+npx hardhat --network nahmii test
+```
+
+5. To interact with the smart contracts manually, use the console. The JavaScript console can be ran with the following command:
+
+```
+npx hardhat --network nahmii console
+```
