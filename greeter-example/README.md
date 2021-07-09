@@ -1,4 +1,4 @@
-# nahmii 2.0 greeting contract example
+# Nahmii 2.0 greeting contract example
 
 This is a very simple greeting smart contract.
 A message can be set on deployment and changed by anyone afterwards.
@@ -7,12 +7,12 @@ A message can be set on deployment and changed by anyone afterwards.
 
 1. Open a command line terminal.
 2. Run `yarn`.
-3. To connect hardhat to the nahmii 2 L2 network and test the code, run `npx hardhat --network nahmii test`.
-4. To interact with the smart contracts on the nahmii 2 L2 network run `npx hardhat --network nahmii console`.
+3. To connect hardhat to the Nahmii 2 L2 network and test the code, run `npx hardhat --network nahmii test`.
+4. To interact with the smart contracts on the Nahmii 2 L2 network run `npx hardhat --network nahmii console`.
 
-## Configuring a project to run with nahmii 2
+## Configuring a project to run with Nahmii 2
 
-To compile the correct bytecode to work with the nahmii virtual machine, the hardhat-ovm dependency is required due to a difference between certain opcodes between the EVM and the NVM.
+To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-ovm dependency is required due to a difference between certain opcodes between the EVM and the NVM.
 
 1. Install the OVM hardhat plugin.
 
@@ -48,7 +48,7 @@ module.exports = {
 };
 ```
 
-4. To test contracts on the live nahmii l2, compile it with hardhat:
+4. To test contracts on the live Nahmii l2, compile it with hardhat:
 
 ```
 npx hardhat --network nahmii test
