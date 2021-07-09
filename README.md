@@ -20,7 +20,7 @@ Block explorer URL:
 L2 testnet
 Network name: nahmii 2.0 L2 testnet
 RPC URL: https://l2.testnet.nahmii.io/
-ChainID: 420
+ChainID: 550
 Symbol: ETH
 Block explorer URL:
 
