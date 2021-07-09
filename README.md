@@ -1,4 +1,4 @@
-# nahmii-2-docs
+# Getting started with the Nahmii 2.0 testnet
 
 ## About Nahmii 2.0
 
