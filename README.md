@@ -24,6 +24,10 @@ L2 testnet
 - Symbol: ETH
 - Block explorer URL:
 
+### Connect with the press of a button
+
+Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII L1` and `ADD NAHMII L2` buttons. The app will request you to add both networks. Approve the requests. The networks should be added to your Ethereum provider.
+
 ### Connect manually via MetaMask
 
 1. Open the MetaMask browser extension.
