@@ -29,5 +29,4 @@
 * [Meta Contracts](protocol-docs/meta-contracts.md)
 * [EVM/OVM/NVM Comparison](protocol-docs/evm-ovm-nvm-comparison.md)
 * [Nahmii Protocol](protocol-docs/nahmii-protocol.md)
-* [State Pools](protocol-docs/state-pools.md)
 
