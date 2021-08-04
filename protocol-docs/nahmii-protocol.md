@@ -1,2 +1,0 @@
-# Nahmii Protocol
-

@@ -5,7 +5,6 @@
 ## Getting Started
 
 * [User Quickstart](getting-started/user-quickstart.md)
-* [Developer Quickstart](getting-started/developer-quickstart.md)
 * [Connect via MetaMask](getting-started/connect-via-metamask.md)
 
 ## User Docs
@@ -27,5 +26,4 @@
 * [Contract Overview](protocol-docs/contract-overview.md)
 * [Meta Contracts](protocol-docs/meta-contracts.md)
 * [EVM/OVM/NVM Comparison](protocol-docs/evm-ovm-nvm-comparison.md)
-* [Nahmii Protocol](protocol-docs/nahmii-protocol.md)
 
