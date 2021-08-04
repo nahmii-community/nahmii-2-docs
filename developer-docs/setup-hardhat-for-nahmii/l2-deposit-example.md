@@ -1,6 +1,6 @@
 # L2 deposit example
 
-The scripts in this example folder show how developers can interact with the Nahmii 2.0 L1 and L2. It shows how to get access to the AddressManager, retrieve addresses from some of our L1 deployed contracts and how to deposit Ethereum from L1 into L2.
+The scripts in this example folder show how developers can interact with the Nahmii 2.0 L1 and L2. It shows how to get access to the AddressManager, retrieve addresses from some of our L1 deployed contracts and how to deposit Ethereum from L1 into L2. The files for this example can be found [here](https://github.com/nahmii-community/nahmii-2-docs/tree/examples/l2-deposit-example).
 
 ## How to run the project
 

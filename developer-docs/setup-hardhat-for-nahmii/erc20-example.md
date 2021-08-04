@@ -1,6 +1,6 @@
 # ERC20 contract example
 
-ERC20 tokens are a common type of smart contract. This repository contains a simple ERC20 smart contract with a public mint function and instructions on how to deploy them to the Nahmii 2.0 L2 network.
+ERC20 tokens are a common type of smart contract. This repository contains a simple ERC20 smart contract with a public mint function and instructions on how to deploy them to the Nahmii 2.0 L2 network. The files for this example can be found [here](https://github.com/nahmii-community/nahmii-2-docs/tree/examples/erc20-example).
 
 ## How to run the project
 
