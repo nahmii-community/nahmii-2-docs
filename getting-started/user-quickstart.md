@@ -14,7 +14,11 @@ Looking to use dApps that are running on top of Nahmii 2.0? Check out the list o
 
 ### What's happening
 
-To view transactions on Nahmii 2.0, find deployed tokens and view smart contract interactions, check out our Block Explorer [here](https://explorer.testnet.nahmii.io/).
+To view transactions on Nahmii 2.0, find deployed tokens and view smart contract interactions, check out our testnet Block Explorer [here](https://explorer.testnet.nahmii.io/).
+
+### Where to find more info
+
+The Nahmii team is accessible through our community [Telegram](https://t.me/nahmii) and [Discord](https://discord.gg/GKTsUTH). We're always listening for feedback and suggestions. For regular updates please check out our [Twitter](https://twitter.com/nahmii_io) and [Blog](https://blog.nahmii.io/).
 
 
 
