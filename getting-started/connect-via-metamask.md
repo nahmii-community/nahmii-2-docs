@@ -9,10 +9,10 @@ Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-na
 ### Nahmii Mainnet
 
 * Network name: Nahmii 2.0
-* RPC URL: TBD
+* RPC URL: TBA
 * ChainID: 555
 * Symbol: ETH
-* Block explorer URL: TBD
+* Block explorer URL: TBA
 
 ### Nahmii Ropsten Testnet
 
