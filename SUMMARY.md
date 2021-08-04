@@ -16,12 +16,12 @@
 
 ## Developer Docs
 
-* [Hardhat with Nahmii](developer-docs/setup-hardhat-for-nahmii.md)
+* [Hardhat with Nahmii](developer-docs/setup-hardhat-for-nahmii/README.md)
+  * [Greeting contract example](developer-docs/setup-hardhat-for-nahmii/greeter-example.md)
+  * [L2 deposit example](developer-docs/setup-hardhat-for-nahmii/l2-deposit-example.md)
+  * [ERC20 contract example](developer-docs/setup-hardhat-for-nahmii/erc20-example.md)
 * [Remix with Nahmii](developer-docs/remix-with-nahmii.md)
-* [Examples](developer-docs/examples/README.md)
-  * [Greeting contract example](developer-docs/examples/greeter-example.md)
-  * [L2 deposit example](developer-docs/examples/l2-deposit-example.md)
-  * [ERC20 contract example](developer-docs/examples/erc20-example.md)
+* [Examples](developer-docs/examples.md)
 
 ## Protocol Docs
 
