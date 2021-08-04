@@ -21,7 +21,6 @@
   * [L2 deposit example](developer-docs/setup-hardhat-for-nahmii/l2-deposit-example.md)
   * [ERC20 contract example](developer-docs/setup-hardhat-for-nahmii/erc20-example.md)
 * [Remix with Nahmii](developer-docs/remix-with-nahmii.md)
-* [Examples](developer-docs/examples.md)
 
 ## Protocol Docs
 
