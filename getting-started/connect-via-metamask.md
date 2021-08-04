@@ -25,7 +25,7 @@ Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-na
 ## Connect manually via MetaMask
 
 {% tabs %}
-{% tab title="Browser Extension" %}
+{% tab title="With Browser Extension" %}
 1. Open the MetaMask browser extension. 
 2. Click on the networks dropdown.
 
@@ -42,7 +42,7 @@ Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-na
 5. MetaMask will automatically switch to the newly added network.
 {% endtab %}
 
-{% tab title="Mobile App" %}
+{% tab title="With Mobile App" %}
 1. Open the MetaMask app.
 2. Open the app menu and navigate to the Settings page. 
 
