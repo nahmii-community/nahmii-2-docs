@@ -16,7 +16,8 @@
 
 ## Developer Docs
 
-* [Setup Hardhat for Nahmii](developer-docs/setup-hardhat-for-nahmii.md)
+* [Hardhat with Nahmii](developer-docs/setup-hardhat-for-nahmii.md)
+* [Remix with Nahmii](developer-docs/remix-with-nahmii.md)
 * [Examples](developer-docs/examples/README.md)
   * [Greeting contract example](developer-docs/examples/greeter-example.md)
   * [L2 deposit example](developer-docs/examples/l2-deposit-example.md)
@@ -24,7 +25,9 @@
 
 ## Protocol Docs
 
+* [Contract Overview](protocol-docs/contract-overview.md)
 * [Meta Contracts](protocol-docs/meta-contracts.md)
+* [EVM/OVM/NVM Comparison](protocol-docs/evm-ovm-nvm-comparison.md)
 * [Nahmii Protocol](protocol-docs/nahmii-protocol.md)
 * [State Pools](protocol-docs/state-pools.md)
 
