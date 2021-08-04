@@ -10,8 +10,8 @@
 ## User Docs
 
 * [Advantages of Nahmii](user-docs/advantages-of-nahmii.md)
-* [Deposit and withdraw into Nahmii](user-docs/deposit-and-withdraw-into-nahmii.md)
 * [dApps on Nahmii](user-docs/dapps-on-nahmii.md)
+* [Deposit and withdraw into Nahmii](user-docs/deposit-and-withdraw-into-nahmii.md)
 
 ## Developer Docs
 
