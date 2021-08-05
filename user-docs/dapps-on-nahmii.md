@@ -13,5 +13,7 @@ NiiFi will be used to solve real business problems and will give more back to us
 * [NiiFi website](https://www.niifi.com/)
 * [NiiFi exchange](https://app.niifi.com/)
 
-
+{% hint style="info" %}
+More to be announced!
+{% endhint %}
 
