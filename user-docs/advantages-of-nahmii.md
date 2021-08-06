@@ -44,6 +44,12 @@ Due to the congestion pricing baked into Blockchain systems like Ethereum and Bi
 
 The subscription based business model has steadily gained the upper hand in the online world. Offering these types of payments on traditional Blockchains would result in unpredictable extra costs for customers, that at times can even outpace the actual cost of the subscription.
 
-Nahmii 2.0, with its generalized smart contract support, allows for both innovative new use cases around subscription based business models and predictable fees for end users.  
-****
+Nahmii 2.0, with its generalized smart contract support, allows for both innovative new use cases around subscription based business models and predictable fees for end users.
+
+### **Blockchain-based Gaming**
+
+Games are often fast-paced and highly interactive. Games built on top of regular Blockchains often experience not only variable cost due to network usage, but also suffer from high latency.
+
+Due to the instant finality property Nahmii exhibits, Blockchain-based games that are real-time and cost effective are finally viable for everyone. The liveness of games built on top of Nahmii are unparalleled.   
+
 
