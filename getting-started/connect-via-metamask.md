@@ -1,5 +1,9 @@
 # Connect via MetaMask
 
+{% hint style="warning" %}
+Our network resets periodically currently. Nonces in MetaMask do not update automatically and are cached. If you receive failed transaction warnings in MetaMask, please reset your account in the settings &gt; advanced menu.
+{% endhint %}
+
 ## Connect with the press of a button
 
 Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII ROPSTEN` button. The app will request you to add the selected network. Approve the request. The network should be added to your Ethereum provider.
