@@ -16,9 +16,9 @@
 ## Developer Docs
 
 * [Hardhat with Nahmii](developer-docs/setup-hardhat-for-nahmii/README.md)
+  * [ERC20 contract example](developer-docs/setup-hardhat-for-nahmii/erc20-example.md)
   * [Greeting contract example](developer-docs/setup-hardhat-for-nahmii/greeter-example.md)
   * [L2 deposit example](developer-docs/setup-hardhat-for-nahmii/l2-deposit-example.md)
-  * [ERC20 contract example](developer-docs/setup-hardhat-for-nahmii/erc20-example.md)
 * [Remix with Nahmii](developer-docs/remix-with-nahmii.md)
 
 ## Protocol Docs
