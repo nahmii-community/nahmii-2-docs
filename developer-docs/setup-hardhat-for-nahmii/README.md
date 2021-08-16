@@ -18,7 +18,8 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
    ...
    ```
 
-3. In the same file, add `nahmii` to the list of networks.
+3. In the same file, add `nahmii` to the list of networks.  
+   Note: Update the **accounts** fields to fit your personal setup.
 
    ```javascript
    ...
