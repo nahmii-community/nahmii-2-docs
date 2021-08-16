@@ -1,3 +1,4 @@
+require('dotenv').config()
 const {
   getContractFactory,
   getContractInterface,
@@ -17,18 +18,18 @@ const { cleanEnv, str, num } = require('envalid')
 module.exports.GWEI = BigNumber.from(1e9)
 
 const env = cleanEnv(process.env, {
-  L1_URL: str({ default: 'https://l1.testnet.nahmii.io/' }),
-  L2_URL: str({ default: 'https://l2.testnet.nahmii.io/' }),
-  VERIFIER_URL: str({ default: 'http://localhost:8547' }),
+  L1_URL: str({ default: process.env.L1_URL }),
+  L2_URL: str({ default: process.env.L2_URL }),
+  VERIFIER_URL: str({ default: process.env.VERIFIER_URL }),
   L1_POLLING_INTERVAL: num({ default: 10 }),
   L2_POLLING_INTERVAL: num({ default: 10 }),
   VERIFIER_POLLING_INTERVAL: num({ default: 10 }),
   PRIVATE_KEY: str({
     default:
-      '0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d',
+      process.env.PRIVATE_KEY,
   }),
   ADDRESS_MANAGER: str({
-    default: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+    default: process.env.ADDRESS_MANAGER,
   }),
 })
 
