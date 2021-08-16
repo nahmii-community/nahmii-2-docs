@@ -10,23 +10,16 @@ The current testnet iteration of Nahmii 2.0 works with both a private instance o
 
 ### Network details
 
-L1 testnet
-- Network name: Nahmii 2.0 L1 testnet
-- RPC URL: https://l1.testnet.nahmii.io/
-- ChainID: 31337
-- Symbol: ETH
-- Block explorer URL:
-
 L2 testnet
-- Network name: Nahmii 2.0 L2 testnet
+- Network name: Nahmii 2.0 - Ropsten
 - RPC URL: https://l2.testnet.nahmii.io/
-- ChainID: 555
+- ChainID: 5553
 - Symbol: ETH
-- Block explorer URL:
+- Block explorer URL: https://explorer.testnet.nahmii.io/
 
 ### Connect with the press of a button
 
-Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII L1` and `ADD NAHMII L2` buttons. The app will request you to add both networks. Approve the requests. The networks should be added to your Ethereum provider.
+Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII ROPSTEN` button. The app will request you to add the selected network. Approve the request. The network should be added to your Ethereum provider.
 
 ### Connect manually via MetaMask
 
@@ -63,6 +56,7 @@ require('@eth-optimism/hardhat-ovm')
 ```
 
 3. In the same file, add `nahmii` to the list of networks:
+Note: Update the **accounts** fields to fit your personal setup.
 
 ```js
 ...
