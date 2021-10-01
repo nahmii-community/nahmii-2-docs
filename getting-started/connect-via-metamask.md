@@ -1,7 +1,7 @@
 # Connect via MetaMask
 
 {% hint style="warning" %}
-Our network resets periodically currently. Nonces in MetaMask do not update automatically and are cached. If you receive failed transaction warnings in MetaMask, please reset your account in the settings &gt; advanced menu.
+Our testnet network resets periodically currently. Nonces in MetaMask do not update automatically and are cached. If you receive failed transaction warnings in MetaMask, please reset your account in the settings &gt; advanced menu.
 {% endhint %}
 
 ## Connect with the press of a button
