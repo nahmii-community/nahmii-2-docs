@@ -16,7 +16,7 @@ Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-na
 * RPC URL: [https://l2.nahmii.io/](https://l2.nahmii.io)
 * ChainID: 5551
 * Symbol: ETH
-* Block explorer URL: [T](https://explorer.nahmii.io/)BD
+* Block explorer URL: TBD
 
 ### Nahmii Testnet
 
