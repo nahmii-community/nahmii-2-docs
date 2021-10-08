@@ -6,7 +6,7 @@ Our testnet network resets periodically. Nonces in MetaMask do not update automa
 
 ## Connect with the press of a button
 
-Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII ROPSTEN` and `ADD NAHMII`  button. The app will request you to add the selected networks. Approve the requests. The networks should be added to your Ethereum provider.
+Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app. Press on the `ADD NAHMII TESTNET` and `ADD NAHMII MAINNET`  button. The app will request you to add the selected networks. Approve the requests. The networks should be added to your Ethereum provider.
 
 ## Network details
 
