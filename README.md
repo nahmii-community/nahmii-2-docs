@@ -37,20 +37,20 @@ The main contract that is relevant for developers is the AddressManager. The Add
 
 ## Configuring a project to run on Nahmii 2.0
 
-To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-ovm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
+To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-nvm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
 
-1. Install the OVM hardhat plugin.
+1. Install the NVM hardhat plugin.
 
 ```js
-yarn add @eth-optimism/hardhat-ovm
+yarn add @nahmii/hardhat-nvm
 ```
 
-2. Edit `hardhat.config.js` to use the OVM package.
+2. Edit `hardhat.config.js` to use the NVM package.
 
 ```js
 // hardhat.config.js
 require("@nomiclabs/hardhat-waffle");
-require('@eth-optimism/hardhat-ovm')
+require('@nahmii/hardhat-nvm')
 
 ...
 ```
@@ -68,7 +68,7 @@ module.exports = {
       url: 'https://l2.testnet.nahmii.io/',
       accounts: { mnemonic: 'test test test test test test test test test test test junk' },
       gasPrice: 15000000,
-      ovm: true
+      nvm: true
     }
   }
 };
