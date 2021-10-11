@@ -68,7 +68,7 @@ Used by the Fraud verifier to create a unique State Transitioner for each challe
 
 ### [\#](https://community.optimism.io/docs/protocol/protocol.html#execution-contracts)Execution Contracts <a id="execution-contracts"></a>
 
-The Execution contracts implement the Optimistic Virtual Machine, or NVM. Importantly, these contracts must execute in the same deterministic manner, whether a transaction is run on Layer 2, or Layer 1 \(during a challenge\).
+The Execution contracts implement the Nahmii Virtual Machine, or NVM. Importantly, these contracts must execute in the same deterministic manner, whether a transaction is run on Layer 2, or Layer 1 \(during a challenge\).
 
 #### [\#](https://community.optimism.io/docs/protocol/protocol.html#nvm-executionmanager)[`NVM_ExecutionManager`\(opens new window\)](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/optimistic-ethereum/NVM/execution/NVM_ExecutionManager.sol) <a id="nvm-executionmanager"></a>
 
