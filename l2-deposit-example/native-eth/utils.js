@@ -1,8 +1,8 @@
 const {
   getContractFactory,
   getContractInterface,
-} = require('@eth-optimism/contracts')
-const { remove0x, Watcher } = require('@eth-optimism/core-utils')
+} = require('@nahmii/contracts')
+const { remove0x, Watcher } = require('@nahmii/core-utils')
 const {
   Contract,
   Wallet,

@@ -140,7 +140,7 @@ The L2 Cross Domain Messenger \(L2xDM\) contract sends messages from L2 to L1, a
 
 "Predeploys" are a set of essential L2 contracts which are deployed and available in the genesis state of the system. These contracts are similar to Ethereum's precompiles, however they are written in Solidity, and can be found in the NVM at addresses prefixed with 0x42.
 
-Looking up predeploys is available in the Solidity library [`Lib_PredeployAddresses` \(opens new window\)](https://github.com/ethereum-optimism/optimism/blob/master/packages/contracts/contracts/optimistic-ethereum/libraries/constants/Lib_PredeployAddresses.sol)as well as in the `@eth-optimism/contracts` package as `predeploys` export.
+Looking up predeploys is available in the Solidity library [`Lib_PredeployAddresses` \(opens new window\)](https://github.com/ethereum-optimism/optimism/blob/master/packages/contracts/contracts/optimistic-ethereum/libraries/constants/Lib_PredeployAddresses.sol)as well as in the `@nahmii/contracts` package as `predeploys` export.
 
 The following concrete contracts are predeployed:
 

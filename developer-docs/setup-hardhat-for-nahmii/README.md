@@ -5,7 +5,7 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
 1. Install the NVM hardhat plugin. 
 
    ```javascript
-   yarn add @eth-optimism/hardhat-nvm
+   yarn add @nahmii/hardhat-nvm
    ```
 
 2. Edit `hardhat.config.js` to use the NVM package. 
@@ -13,7 +13,7 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
    ```javascript
    // hardhat.config.js
    require("@nomiclabs/hardhat-waffle");
-   require('@eth-optimism/hardhat-nvm')
+   require('@nahmii/hardhat-nvm')
 
    ...
    ```
