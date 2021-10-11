@@ -1,19 +1,19 @@
 # Hardhat with Nahmii
 
-To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-ovm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
+To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-nvm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
 
-1. Install the OVM hardhat plugin. 
+1. Install the NVM hardhat plugin. 
 
    ```javascript
-   yarn add @eth-optimism/hardhat-ovm
+   yarn add @eth-optimism/hardhat-nvm
    ```
 
-2. Edit `hardhat.config.js` to use the OVM package. 
+2. Edit `hardhat.config.js` to use the NVM package. 
 
    ```javascript
    // hardhat.config.js
    require("@nomiclabs/hardhat-waffle");
-   require('@eth-optimism/hardhat-ovm')
+   require('@eth-optimism/hardhat-nvm')
 
    ...
    ```
@@ -31,7 +31,7 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
          url: 'https://l2.testnet.nahmii.io/',
          accounts: { mnemonic: 'test test test test test test test test test test test junk' },
          gasPrice: 15000000,
-         ovm: true
+         nvm: true
        }
      }
    };

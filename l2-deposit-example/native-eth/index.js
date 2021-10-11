@@ -3,7 +3,7 @@ const {
   l2Wallet,
   getAddressManager,
   getGateway,
-  getOvmEth,
+  getNvmEth,
   sleep
 } = require('./utils')
 
@@ -24,16 +24,16 @@ const run = async () => {
   await sleep(10000)
   console.log(`L2 balance(${l2Wallet.address}) after deposit: ${(await l2Wallet.getBalance()).toString()}`)
 
-  const ovmEth = getOvmEth(l2Wallet)
+  const nvmEth = getNvmEth(l2Wallet)
 
   const other = ethers.Wallet.createRandom().connect(l2Wallet.provider)
-  const transferTx = await ovmEth.transfer(other.address, amount)
+  const transferTx = await nvmEth.transfer(other.address, amount)
   console.log(`L2 transfer tx hash by wallet ${l2Wallet.address}: ${transferTx.hash}`)
 
   console.log(`L2 balance(${other.address}) after transfer: ${(await other.getBalance()).toString()}`)
 
   const withdrawnAmount = ethers.utils.parseEther('0.0095')
-  ovmEth.connect(other).withdraw(withdrawnAmount)
+  nvmEth.connect(other).withdraw(withdrawnAmount)
 
   await sleep(10000)
 

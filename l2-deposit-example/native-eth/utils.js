@@ -57,8 +57,8 @@ module.exports.l2Wallet = l1Wallet.connect(l2Provider)
 module.exports.PROXY_SEQUENCER_ENTRYPOINT_ADDRESS =
   '0x4200000000000000000000000000000000000004'
 
-const OVM_ETH_ADDRESS = '0x4200000000000000000000000000000000000006'
-module.exports.OVM_ETH_ADDRESS = OVM_ETH_ADDRESS
+const NVM_ETH_ADDRESS = '0x4200000000000000000000000000000000000006'
+module.exports.NVM_ETH_ADDRESS = NVM_ETH_ADDRESS
 
 module.exports.getAddressManager = (provider) => {
   return getContractFactory('Lib_AddressManager')
@@ -68,32 +68,32 @@ module.exports.getAddressManager = (provider) => {
 
 // Gets the gateway using the proxy if available
 module.exports.getGateway = async (wallet, AddressManager) => {
-  const l1GatewayInterface = getContractInterface('OVM_L1ETHGateway')
+  const l1GatewayInterface = getContractInterface('NVM_L1ETHGateway')
   const ProxyGatewayAddress = await AddressManager.getAddress(
-    'Proxy__OVM_L1ETHGateway'
+    'Proxy__NVM_L1ETHGateway'
   )
   const addressToUse =
     ProxyGatewayAddress !== constants.AddressZero
       ? ProxyGatewayAddress
-      : await AddressManager.getAddress('OVM_L1ETHGateway')
+      : await AddressManager.getAddress('NVM_L1ETHGateway')
 
-  const OVM_L1ETHGateway = new Contract(
+  const NVM_L1ETHGateway = new Contract(
     addressToUse,
     l1GatewayInterface,
     wallet
   )
 
-  return OVM_L1ETHGateway
+  return NVM_L1ETHGateway
 }
 
-module.exports.getOvmEth = (wallet) => {
-  const OVM_ETH = new Contract(
-    OVM_ETH_ADDRESS,
-    getContractInterface('OVM_ETH'),
+module.exports.getNvmEth = (wallet) => {
+  const NVM_ETH = new Contract(
+    NVM_ETH_ADDRESS,
+    getContractInterface('NVM_ETH'),
     wallet
   )
 
-  return OVM_ETH
+  return NVM_ETH
 }
 
 module.exports.sleep = (ms) => new Promise((r) => setTimeout(r, ms))

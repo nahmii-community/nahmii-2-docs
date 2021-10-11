@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-require("@eth-optimism/hardhat-ovm");
+require("@eth-optimism/hardhat-nvm");
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -24,7 +24,7 @@ module.exports = {
       url: 'https://l2.testnet.nahmii.io/',
       accounts: {mnemonic: 'test test test test test test test test test test test junk'},
       gasPrice: 15000000,
-      ovm: true
+      nvm: true
     }
   }
 };
