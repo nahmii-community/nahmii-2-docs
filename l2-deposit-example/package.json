@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@eth-optimism/contracts": "0.3.5",
+    "@nahmii/contracts": "0.3.5",
     "envalid": "^7.1.1",
     "ethers": "5.4.1"
   }
