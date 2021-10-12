@@ -38,9 +38,13 @@ The Chain is composed of a set of contracts running on the Ethereum mainnet. The
 
 The chain is composed of the following concrete contracts:
 
+#### [\#](https://community.optimism.io/docs/protocol/protocol.html#nvm-messagequeue)[`NVM_MessageQueue` \(opens new window\)](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/optimistic-ethereum/NVM/chain/NVM_MessageQueue.sol) <a id="nvm-messagequeue"></a>
+
+MessageQueue handles enqueuing transactions from L1, which is mainly for relaying L1 transactions to L2, such as depositing an ERC20 asset to L2. It uses the ChainStorageContainer as the store to record these enqueued transactions on-chain, while emitting TransactionEnqueued events for the data indexer DTL to sync with the latest transactions coming from the L1.
+
 #### [\#](https://community.optimism.io/docs/protocol/protocol.html#nvm-chainstoragecontainer)[`NVM_ChainStorageContainer`\(opens new window\)](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/optimistic-ethereum/NVM/chain/NVM_ChainStorageContainer.sol) <a id="nvm-chainstoragecontainer"></a>
 
-Provides reusable storage in the form of a "Ring Buffer" data structure, which will overwrite storage slots that are no longer needed. There are three Chain Storage Containers deployed, two are controlled by the CTC, one by the SCC.
+Provides reusable storage in the form of a "Ring Buffer" data structure, which will overwrite storage slots that are no longer needed. 
 
 ### [\#](https://community.optimism.io/docs/protocol/protocol.html#transaction-challenge-contracts)Transaction Challenge Contracts <a id="transaction-challenge-contracts"></a>
 
