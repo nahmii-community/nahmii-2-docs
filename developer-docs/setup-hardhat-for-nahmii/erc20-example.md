@@ -5,7 +5,7 @@ ERC20 tokens are a common type of smart contract. This repository contains a sim
 ## Requirements
 
 * NodeJS +v12
-* Two L2 wallets populated with wETH.
+* Two L2 wallets that each have to be populated with a suffient amount of wETH.
 
 ## How to run the project
 
