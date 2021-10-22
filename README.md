@@ -26,12 +26,12 @@ Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-na
 1. Open the MetaMask browser extension.
 2. Click on the network name.
 3. When the networks window pops up, click on 'Custom RPC'.
-4. A new window will popup where you can fill in the connection details. Fill in the details provided above for the first network and click save.
-5. Do this again for the second network listed above.
+4. A new window will popup where you can fill in the connection details. Fill in the details provided [above](https://github.com/nahmii-community/nahmii-2-docs#network-details) for the first network and click save.
+5. Do this again for the second network listed [above](https://github.com/nahmii-community/nahmii-2-docs#network-details).
 
 ## Nahmii 2.0 Meta contracts L1 <-> L2
 
-Nahmii 2.0 provides a number of contracts on L1 to interact with the L2 and vica versa. The meta data of these contracts can be found [here](https://meta.testnet.nahmii.io/addresses.json).
+Nahmii 2.0 provides a number of contracts on L1 to interact with the L2 and vica versa. The metadata of these contracts can be found [here](https://meta.testnet.nahmii.io/addresses.json).
 
 The main contract that is relevant for developers is the AddressManager. The AddressManager provides easy accesss to all the other contracts and exposes their addresses. For examples on how to interact with the Nahmii 2.0 L2 contracts, please see the provided examples.
 
