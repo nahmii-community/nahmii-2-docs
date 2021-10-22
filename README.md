@@ -19,7 +19,7 @@ L2 testnet
 
 ### Connect with the press of a button
 
-Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII ROPSTEN` button. The app will request you to add the selected network. Approve the request. The network should be added to your Ethereum provider.
+Navigate to the [connect-nahmii-2](https://nahmii-community.github.io/connect-nahmii-2/) web app and press on the `ADD NAHMII TESTNET` button. The app will request you to add the selected network. Approve the request. The network should be added to your Ethereum provider.
 
 ### Connect manually via MetaMask
 
