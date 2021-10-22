@@ -23,7 +23,7 @@
 
 ## Protocol Docs
 
-* [Contract Overview](protocol-docs/contract-overview.md)
+* [Protocol Overview](protocol-docs/protocol-overview.md)
 * [Meta Contracts](protocol-docs/meta-contracts.md)
 * [EVM/OVM/NVM Comparison](protocol-docs/evm-ovm-nvm-comparison.md)
 
