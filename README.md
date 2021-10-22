@@ -20,7 +20,7 @@ L1 testnet
 L2 testnet
 - Network name: Nahmii 2.0 L2 testnet
 - RPC URL: https://l2.testnet.nahmii.io/
-- ChainID: 555
+- ChainID: 5553
 - Symbol: ETH
 - Block explorer URL:
 
