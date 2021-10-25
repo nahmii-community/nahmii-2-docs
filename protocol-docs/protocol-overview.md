@@ -10,7 +10,7 @@ description: >-
 
 Nahmii is a Layer 2 scaling protocol for Ethereum applications. I.e., it makes transactions cheap. Real cheap. We aim to make transacting on Ethereum affordable and accessible to anyone.
 
-This document is intended for anyone looking for a deeper understanding of how the protocol works 'under the hood'. If you just want to skip straight to integrating your smart contract application with Nahmii, a good place to start is to check out [Optimism's Developer Docs](https://community.optimism.io/docs/developers/integration.html).
+This document is intended for anyone looking for a deeper understanding of how the protocol works 'under the hood'. If you just want to skip straight to integrating your smart contract application with Nahmii, a good place to start is to check out [HardHat for Nahmii](https://docs.nahmii.io/developer-docs/setup-hardhat-for-nahmii).
 
 Nahmii is meant to look, feel and behave like Ethereum but cheaper and faster. For developers building on the Nahmii L2, we aim to make the transition as seamless as possible. With very few exceptions, existing Solidity smart contracts can run on L2 exactly how they run on L1. Similarly, off-chain code \(ie. UIs and wallets\), should be able to interact with L2 contract with little more than an updated RPC endpoint.
 
