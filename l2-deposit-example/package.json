@@ -8,8 +8,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nahmii/contracts": "0.3.5",
+    "@nahmii/contracts": "^0.5.0",
     "envalid": "^7.1.1",
-    "ethers": "5.4.1"
+    "ethers": "^5.4.1"
   }
 }
