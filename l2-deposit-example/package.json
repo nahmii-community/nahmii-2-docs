@@ -9,6 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "@nahmii/contracts": "^0.5.0",
+    "@nahmii/core-utils": "^0.5.2",
+    "@nahmii/message-relayer": "^0.1.9",
     "envalid": "^7.1.1",
     "ethers": "^5.4.1"
   }
