@@ -1,5 +1,5 @@
 artifacts
-artifacts-ovm
+artifacts-nvm
 cache
-cache-ovm
+cache-nvm
 node_modules

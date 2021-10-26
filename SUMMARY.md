@@ -15,7 +15,7 @@
 
 ## Developer Docs
 
-* [Hardhat with Nahmii](developer-docs/setup-hardhat-for-nahmii/README.md)
+* [HardHat with Nahmii](developer-docs/setup-hardhat-for-nahmii/README.md)
   * [ERC20 contract example](developer-docs/setup-hardhat-for-nahmii/erc20-example.md)
   * [Greeting contract example](developer-docs/setup-hardhat-for-nahmii/greeter-example.md)
   * [L2 deposit example](developer-docs/setup-hardhat-for-nahmii/l2-deposit-example.md)
@@ -23,7 +23,7 @@
 
 ## Protocol Docs
 
-* [Contract Overview](protocol-docs/contract-overview.md)
+* [Protocol Overview](protocol-docs/protocol-overview.md)
 * [Meta Contracts](protocol-docs/meta-contracts.md)
 * [EVM/OVM/NVM Comparison](protocol-docs/evm-ovm-nvm-comparison.md)
 

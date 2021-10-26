@@ -1,19 +1,19 @@
-# Hardhat with Nahmii
+# HardHat with Nahmii
 
-To compile the correct bytecode to work with the Nahmii virtual machine, the hardhat-ovm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
+To compile the correct bytecode to work with the Nahmii virtual machine, the @nahmii/hardhat-nvm dependency is required due to the differences between certain opcodes in the EVM and the NVM.
 
-1. Install the OVM hardhat plugin. 
+1. Install the NVM HardHat plugin. 
 
    ```javascript
-   yarn add @eth-optimism/hardhat-ovm
+   yarn add @nahmii/hardhat-nvm
    ```
 
-2. Edit `hardhat.config.js` to use the OVM package. 
+2. Edit `hardhat.config.js` to use the NVM package. 
 
    ```javascript
    // hardhat.config.js
    require("@nomiclabs/hardhat-waffle");
-   require('@eth-optimism/hardhat-ovm')
+   require('@nahmii/hardhat-nvm')
 
    ...
    ```
@@ -31,13 +31,13 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
          url: 'https://l2.testnet.nahmii.io/',
          accounts: { mnemonic: 'test test test test test test test test test test test junk' },
          gasPrice: 15000000,
-         ovm: true
+         nvm: true
        }
      }
    };
    ```
 
-4. To test contracts on the live Nahmii L2, compile it with hardhat. 
+4. To test contracts on the live Nahmii L2, compile it with HardHat. 
 
    ```text
    npx hardhat --network nahmii test
@@ -49,7 +49,7 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
    npx hardhat --network nahmii console
    ```
 
-6. To deploy to Nahmii, write a deploy script for Hardhat \([https://hardhat.org/guides/deploying.html](https://hardhat.org/guides/deploying.html)\) and run the following command.
+6. To deploy to Nahmii, write a deploy script for HardHat \([https://hardhat.org/guides/deploying.html](https://hardhat.org/guides/deploying.html)\) and run the following command.
 
    ```text
    npx hardhat --network nahmii scripts/deploy.js

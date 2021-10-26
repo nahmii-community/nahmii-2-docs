@@ -9,6 +9,6 @@
     "hardhat": "^2.4.3"
   },
   "dependencies": {
-    "@eth-optimism/hardhat-ovm": "^0.2.2"
+    "@nahmii/hardhat-nvm": "^0.2.3"
   }
 }
