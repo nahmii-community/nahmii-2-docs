@@ -5,8 +5,13 @@ The scripts in this example folder show how developers can interact with the Nah
 ## How to run the project
 
 1. Open a command line terminal.
-2. Run `yarn` to install all the dependencies.
-3. Run `yarn demo` to execute the scripts to interact with the Nahmii L1 and L2.
+2. Clone the repository.
+3. `cd` to the cloned project folder.
+4. Fetch and switch to the 'example' branch.
+5. `cd` to the example folder of your choice eg. `cd l2-deposit-example`.
+6. Run `yarn` or `yarn install` to install the dependencies.
+7. Update the .env file with a private key. The main address should contain Ropsten Ether.
+8. Run `yarn demo` to execute the scripts to interact with the Nahmii L1 and L2.
 
 ## Configuration
 
