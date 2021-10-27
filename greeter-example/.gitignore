@@ -3,3 +3,4 @@ artifacts-ovm
 cache
 cache-ovm
 node_modules
+yarn.lock
