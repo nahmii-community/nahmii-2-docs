@@ -10,7 +10,7 @@ The scripts in this example folder show how developers can interact with the Nah
 4. Fetch and switch to the 'example' branch.
 5. `cd` to the example folder of your choice eg. `cd l2-deposit-example`.
 6. Run `yarn` or `yarn install` to install the dependencies.
-7. Update the .env file with a private key. The main address should contain Ropsten Ether.
+7. Update the .env file with a private key and verify the address of the address manager contract. The account whose address is provided should contain Ropsten Ether.
 8. Run `yarn demo` to execute the scripts to interact with the Nahmii L1 and L2.
 
 ## Configuration
