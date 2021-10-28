@@ -49,7 +49,7 @@ To compile the correct bytecode to work with the Nahmii virtual machine, the har
 1. Install the OVM hardhat plugin.
 
 ```js
-yarn add @eth-optimism/hardhat-ovm
+yarn add @nahmii/hardhat-ovm
 ```
 
 2. Edit `hardhat.config.js` to use the OVM package.
@@ -57,7 +57,7 @@ yarn add @eth-optimism/hardhat-ovm
 ```js
 // hardhat.config.js
 require("@nomiclabs/hardhat-waffle");
-require('@eth-optimism/hardhat-ovm')
+require('@nahmii/hardhat-ovm')
 
 ...
 ```
