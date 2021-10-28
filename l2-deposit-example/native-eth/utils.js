@@ -14,6 +14,8 @@ const {
 } = require('ethers')
 const {cleanEnv, str, num} = require('envalid')
 
+require('dotenv').config()
+
 const env = cleanEnv(process.env, {
     L1_URL: str({default: 'https://l1.testnet.nahmii.io/'}), // An Ethereum client on the Ropsten testnet
     L2_URL: str({default: 'https://l2.testnet.nahmii.io/'}),
@@ -21,13 +23,8 @@ const env = cleanEnv(process.env, {
     L1_POLLING_INTERVAL: num({default: 10}),
     L2_POLLING_INTERVAL: num({default: 10}),
     VERIFIER_POLLING_INTERVAL: num({default: 10}),
-    PRIVATE_KEY: str({
-        default:
-            '0x50df7674bda072b62550dc9e87ee7c137f4c994cad8b58c56ca652713fee8ea7',
-    }),
-    ADDRESS_MANAGER: str({
-        default: '0x357eCd03C1601273094Db3474A13D2452cF6785A',
-    }),
+    PRIVATE_KEY: str(),
+    ADDRESS_MANAGER: str(),
 })
 
 // The hardhat instance
