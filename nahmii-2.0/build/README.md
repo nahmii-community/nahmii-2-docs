@@ -13,4 +13,4 @@ We have curated a couple of topics here, do take a look at the list on the docum
 
 ### Missing a guide?
 
-What topic should we cover? What important guide are we missing? We'll love you to raise a github issue or speak to us on [discord](https://discord.gg/GKTsUTH).
+What topic should we cover? What important guide are we missing? We'll love you to raise a [github issue](https://github.com/nahmii-community/nahmii-2-docs/issues) or speak to us on [discord](https://discord.gg/GKTsUTH).
