@@ -1,29 +1,27 @@
 # Table of contents
 
-* [What is Nahmii](README.md)
-
-## Getting Started
-
-* [User Quickstart](getting-started/user-quickstart.md)
-* [Connect via MetaMask](getting-started/connect-via-metamask.md)
-
-## User Docs
-
-* [Advantages of Nahmii](user-docs/advantages-of-nahmii.md)
-* [dApps on Nahmii](user-docs/dapps-on-nahmii.md)
-* [Deposit and withdraw into Nahmii](user-docs/deposit-and-withdraw-into-nahmii.md)
-
-## Developer Docs
-
-* [HardHat with Nahmii](developer-docs/setup-hardhat-for-nahmii/README.md)
-  * [ERC20 contract example](developer-docs/setup-hardhat-for-nahmii/erc20-example.md)
-  * [Greeting contract example](developer-docs/setup-hardhat-for-nahmii/greeter-example.md)
-  * [L2 deposit example](developer-docs/setup-hardhat-for-nahmii/l2-deposit-example.md)
-* [Remix with Nahmii](developer-docs/remix-with-nahmii.md)
-
-## Protocol Docs
-
-* [Protocol Overview](protocol-docs/protocol-overview.md)
-* [Meta Contracts](protocol-docs/meta-contracts.md)
-* [EVM/OVM/NVM Comparison](protocol-docs/evm-ovm-nvm-comparison.md)
-
+* [Nahmii 2.0](README.md)
+  * [Build](nahmii-2.0/build/README.md)
+    * [get-started](nahmii-2.0/build/get-started.md)
+    * [Development-Envirnoment](nahmii-2.0/build/development-envirnoment.md)
+    * [Hello-world](nahmii-2.0/build/hello-world.md)
+    * [compile-contracts](nahmii-2.0/build/compile-contracts.md)
+    * [IPFS](nahmii-2.0/build/ipfs.md)
+    * [Nahmii⇌Ethereum](nahmii-2.0/build/nahmii-ethereum.md)
+    * [Indexing Services](nahmii-2.0/build/indexing-services.md)
+    * [example-dapps](nahmii-2.0/build/example-dapps.md)
+  * [Learn](nahmii-2.0/learn/README.md)
+    * [Overview](nahmii-2.0/learn/overview.md)
+    * [state-pools](nahmii-2.0/learn/state-pools.md)
+    * [security-model](nahmii-2.0/learn/security-model.md)
+    * [performance](nahmii-2.0/learn/performance.md)
+    * [fast-withdrawals](nahmii-2.0/learn/fast-withdrawals.md)
+    * [nahmii-kyc](nahmii-2.0/learn/nahmii-kyc.md)
+    * [transaction-fees](nahmii-2.0/learn/transaction-fees.md)
+    * [carbon-impact](nahmii-2.0/learn/carbon-impact.md)
+  * [Reference](nahmii-2.0/reference/README.md)
+    * [cli](nahmii-2.0/reference/cli.md)
+    * [js-framework](nahmii-2.0/reference/js-framework.md)
+    * [nahmii-api](nahmii-2.0/reference/nahmii-api.md)
+  * [Community](nahmii-2.0/community/README.md)
+    * [help-and-support](nahmii-2.0/community/help-and-support.md)
