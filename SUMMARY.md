@@ -10,7 +10,7 @@
     * [Nahmii⇌Ethereum](nahmii-2.0/build/nahmii-ethereum.md)
     * [Indexing Services](nahmii-2.0/build/indexing-services.md)
     * [example-dapps](nahmii-2.0/build/example-dapps.md)
-  * [Learn](nahmii-2.0/learn/index.md)
+  * [Learn](nahmii-2.0/learn/learn.md)
     * [Overview](nahmii-2.0/learn/overview.md)
     * [state-pools](nahmii-2.0/learn/state-pools.md)
     * [security-model](nahmii-2.0/learn/security-model.md)
