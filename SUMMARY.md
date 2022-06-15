@@ -19,7 +19,7 @@
     * [nahmii-kyc](nahmii-2.0/learn/nahmii-kyc.md)
     * [transaction-fees](nahmii-2.0/learn/transaction-fees.md)
     * [carbon-impact](nahmii-2.0/learn/carbon-impact.md)
-  * [Reference](nahmii-2.0/reference/index.md)
+  * [Reference](nahmii-2.0/reference/reference.md)
     * [cli](nahmii-2.0/reference/cli.md)
     * [js-framework](nahmii-2.0/reference/js-framework.md)
     * [nahmii-api](nahmii-2.0/reference/nahmii-api.md)
