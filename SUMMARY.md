@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Nahmii 2.0](index.md)
+* [Nahmii 2.0](nahmii-2.0.md)
   * [Build](nahmii-2.0/build/index.md)
     * [get-started](nahmii-2.0/build/get-started.md)
     * [Development-Envirnoment](nahmii-2.0/build/development-envirnoment.md)
