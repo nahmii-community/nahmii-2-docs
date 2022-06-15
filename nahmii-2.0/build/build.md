@@ -1,6 +1,5 @@
 ---
 description: A full description of getting started on Nahmii Network.
-layout: editorial
 ---
 
 # Build
