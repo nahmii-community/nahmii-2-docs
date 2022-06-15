@@ -1,7 +1,3 @@
----
-layout: editorial
----
-
 # Nahmii 2.0
 
 Nahmii 2.0 is a scaling solution for the Ethereum Blockchain and sports generalized smart contract support with composability between these.
