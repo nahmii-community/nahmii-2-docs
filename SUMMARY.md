@@ -23,5 +23,5 @@
     * [cli](nahmii-2.0/reference/cli.md)
     * [js-framework](nahmii-2.0/reference/js-framework.md)
     * [nahmii-api](nahmii-2.0/reference/nahmii-api.md)
-  * [Community](nahmii-2.0/community/index.md)
+  * [Community](nahmii-2.0/community/community.md)
     * [help-and-support](nahmii-2.0/community/help-and-support.md)

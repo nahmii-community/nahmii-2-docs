@@ -1,6 +1,5 @@
 ---
 description: This page contains information on how to reach the team.
-layout: editorial
 ---
 
 # Community
